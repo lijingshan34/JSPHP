@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    测试二维数组循环：
+    {foreach item=v key=k from=$user}
+        <li>ID:{$v.id}用户名:{$v.username}密码:{$v.pwd}</li>
+    {/foreach}
+
+    <table>
+        {foreach item=v key=k from=$news}
+        <tr>
+            <td>标题:{$v.title}内容:{$v.content}</td>
+        </tr>
+        {/foreach}
+    </table>
+
+</body>
+</html>
