@@ -1,2 +1,0 @@
-# JSPHP
-PHP的一个MVC框架
